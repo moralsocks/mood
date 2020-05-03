@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#Text{
+    width: 50%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18pt;
+}
+
+.layer{
+    position: absolute;
+    padding-top: 30px;
+    width:100%;
+    height:100vh;
+    margin-top:0px;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18pt;
+}
+
+#layer6{
+    background-color: lightcoral;
+}
+
+
